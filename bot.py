@@ -1,15 +1,3 @@
-"""
-LumenStickers — Telegram-бот для создания стикерпаков и эмодзи-паков.
-
-Требования: Python 3.10+, aiogram>=3.13, aiosqlite, Pillow
-Для видео-стикеров: установленный ffmpeg (в PATH)
-Опционально: rembg (удаление фона нейросетью)
-
-Запуск:
-    set BOT_TOKEN=123:ABC        (Windows)   /   export BOT_TOKEN=123:ABC  (Linux)
-    set ADMIN_ID=123456789
-    python bot.py
-"""
 import asyncio
 import html
 import io
